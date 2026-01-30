@@ -1,13 +1,38 @@
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #2e7d32;
+  color: white;
+}
+
+header a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.landing {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card, .cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
 }
