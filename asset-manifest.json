@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Chuene01/Frontend-with-React/static/css/main.314e2820.css",
+    "main.js": "/Chuene01/Frontend-with-React/static/js/main.de61c42c.js",
+    "index.html": "/Chuene01/Frontend-with-React/index.html",
+    "main.314e2820.css.map": "/Chuene01/Frontend-with-React/static/css/main.314e2820.css.map",
+    "main.de61c42c.js.map": "/Chuene01/Frontend-with-React/static/js/main.de61c42c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.314e2820.css",
+    "static/js/main.de61c42c.js"
+  ]
+}
